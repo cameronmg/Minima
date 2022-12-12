@@ -62,7 +62,7 @@ export const About = () => {
             </div>
           </div>
         
-          <img className="w-[250px] mx-auto z-0 pt-[20%] lg:pt-[3%] lg:mt-[-55%]" src={phone} alt="/"/>
+          <img className="w-[250px] mx-auto z-0 mt-[90px] pt-[20%] lg:pt-[3%] lg:mt-[-55%]" src={phone} alt="/"/>
 
           {/*implementing grid class for mobile*/}
           <div class="h-64 grid grid-rows-2 grid-flow-col gap-[60%] md:hidden lg:hidden text-white font-bold text-xl mt-[-100%] ">        
