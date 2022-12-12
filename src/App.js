@@ -14,7 +14,7 @@ function App() {
           <Banner/>
           <About/>
           <Product/>  
-      {/*<Footer/>*/}
+      <Footer/>
     </Router>
   );
 }

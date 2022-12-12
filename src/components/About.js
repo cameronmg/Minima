@@ -28,7 +28,7 @@ export const About = () => {
           <div className = "flex flex-row space-x-[30%]">
             <div className = "hidden lg:flex flex-col space-y-[5%] w-[20%] pt-[10%] pb-[15%] ml-[15%]" >
               <div class="w-full px-2">
-                <div class=" mx-auto bg-gradient-to-r from-[#28144c] to-[#3f1b3a] rounded h-20 w-[40%] z-0 ">
+                <div class=" mx-auto bg-gradient-to-r from-[#28144c] to-[#3f1b3a] rounded-lg h-20 w-[40%] z-0 ">
                   <span className = " text-white font-bold text-4xl flex justify-center items-center pt-3">1</span> 
                 </div>
                 </div>
@@ -36,7 +36,7 @@ export const About = () => {
                 <p className = "text-white text-center pb-5 text-sm">Go to the App or Play store to get the latest version of Minima.</p>
 
                 <div class="w-full px-2">
-                <div class="mx-auto bg-gradient-to-r from-[#28144c] to-[#3f1b3a] rounded h-20 w-[40%]">
+                <div class="mx-auto bg-gradient-to-r from-[#28144c] to-[#3f1b3a] rounded-lg h-20 w-[40%]">
                   <span className = " text-white font-bold text-4xl flex justify-center items-center pt-3">2</span> 
                 </div>
               </div>
@@ -45,7 +45,7 @@ export const About = () => {
             </div>
             <div className = "hidden lg:flex flex-col space-y-[5%] w-[20%] pt-[10%] pb-[15%] ml-[15%]" >
               <div class="w-full px-2">
-                <div class=" mx-auto bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded h-20 w-[40%] z-0">
+                <div class=" mx-auto bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded-lg h-20 w-[40%] z-0">
                   <span className = " text-white font-bold text-4xl flex justify-center items-center pt-3">3</span> 
                 </div>
                 </div>
@@ -53,7 +53,7 @@ export const About = () => {
                 <p className = "text-white text-center pb-5 text-sm">Go to the App or Play store to get the latest version of Minima.</p>
 
                 <div class="w-full px-2">
-                <div class="mx-auto bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded h-20 w-[40%]">
+                <div class="mx-auto bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded-lg h-20 w-[40%]">
                   <span className = " text-white font-bold text-4xl flex justify-center items-center pt-3">4</span> 
                 </div>
               </div>
