@@ -13,7 +13,7 @@ export const Footer = () => {
             <div className='flex justify-center p-1'>© 2022 Minima LLC</div>
             <div className="flex flex-row justify-center space-x-4">
                 
-                    <a href="https://www.facebook.com/groups/1902193643226660/?notif_id=1657715899107986&notif_t=group_r2j_approved&ref=notif" target="_blank" rel="noreferrer">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                         <FaFacebookSquare className= 'cursor-pointer' size={30} />
                     </a>
                 
