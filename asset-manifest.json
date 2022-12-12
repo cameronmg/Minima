@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Minima/static/css/main.00f21df7.css",
-    "main.js": "/Minima/static/js/main.3745e966.js",
+    "main.css": "/Minima/static/css/main.050ae7bd.css",
+    "main.js": "/Minima/static/js/main.78b5a0f4.js",
     "static/media/minima-two-phone.png": "/Minima/static/media/minima-two-phone.d82805f588f03c70797b.png",
     "static/media/color-sharp.png": "/Minima/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Minima/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/iphone x w circle.png": "/Minima/static/media/iphone x w circle.e1f6aebe414895dcf721.png",
     "index.html": "/Minima/index.html",
-    "main.00f21df7.css.map": "/Minima/static/css/main.00f21df7.css.map",
-    "main.3745e966.js.map": "/Minima/static/js/main.3745e966.js.map"
+    "main.050ae7bd.css.map": "/Minima/static/css/main.050ae7bd.css.map",
+    "main.78b5a0f4.js.map": "/Minima/static/js/main.78b5a0f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.00f21df7.css",
-    "static/js/main.3745e966.js"
+    "static/css/main.050ae7bd.css",
+    "static/js/main.78b5a0f4.js"
   ]
 }
