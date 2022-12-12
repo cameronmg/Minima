@@ -66,7 +66,7 @@ export const About = () => {
           <img className="w-[250px] mx-auto z-0 mt-[90px] pt-[20%] lg:pt-[3%] lg:mt-[-55%]" src={phone} alt="/"/>
 
           {/*implementing grid class for mobile*/}
-          <div class="h-64 grid grid-rows-2 grid-flow-col gap-[60%] md:hidden lg:hidden text-white font-bold text-xl mt-[-118%] ">        
+          <div class="h-64 grid grid-rows-2 grid-flow-col gap-[60%] md:hidden lg:hidden text-white font-bold text-xl mt-[-115%] ">        
             <div onClick={() => setPopUp(true)} className="bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded h-12 w-16 mx-auto hover:scale-105 duration-300"> <span className ="z-0 flex justify-center item-center pt-2"> 1</span></div>
             <div onClick={() => setPopUpTwo(true)} className = "bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded h-12 w-16 mx-auto hover:scale-105 duration-300" ><span className ="z-0 flex justify-center item-center mt-2"> 2</span></div>
             <div onClick={() => setPopUpThree(true)} className = "bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded h-12 w-16 mx-auto hover:scale-105 duration-300"><span className ="z-0 flex justify-center item-center mt-2"> 3</span></div>
