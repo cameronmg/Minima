@@ -4,7 +4,7 @@ import phone from '../assets/img/minima-two-phone.png'
 
 export const Product = () => {
   return (
-      <section className="bg-black h-screen md:h-screen lg:h-screen w-full bg-cover bg-center static" >
+      <section className="bg-black h-[120%] md:h-screen lg:h-screen w-full bg-cover bg-center static" >
         <div className = "md:pb-[0px] lg:pb-[0px] ">
           <img src={background} className = " w-full h-screen object-cover absolute" alt="back Img"/>
             <div className="z-0 w-full px-4 ">

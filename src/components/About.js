@@ -20,7 +20,7 @@ export const About = () => {
   const handleOnCloseFour = () => setPopUpFour(false);
 
   return (
-    <section className="bg-black h-[700px] w-full bg-cover bg-center static mt-[-5]" >  
+    <section className="bg-black h-screen w-full bg-cover bg-center static mt-[-5]" >  
       <div className="z-0 w-full px-4 ">
         <div className="max-w-[1240px] ">
           
@@ -61,7 +61,8 @@ export const About = () => {
               <p className = "text-white text-center text-sm">Pick a start and end date, and pick the frequency of as task and lock it in with a contract!</p>
             </div>
           </div>
-        
+
+          
           <img className="w-[250px] mx-auto z-0 mt-[90px] pt-[20%] lg:pt-[3%] lg:mt-[-55%]" src={phone} alt="/"/>
 
           {/*implementing grid class for mobile*/}
