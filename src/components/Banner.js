@@ -2,6 +2,8 @@ import React from 'react'
 import background from '../assets/img/color-sharp.png'
 import phone from '../assets/img/minima-two-phone.png'
 import {DiAndroid, DiApple} from 'react-icons/di'
+import Apple from '../assets/img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'
+import Android from '../assets/img/google-play-badge.png'
 
 export const Banner = () => {
   return (
@@ -23,8 +25,9 @@ export const Banner = () => {
           Possimus esse voluptates eius quae eligendi.
           </p>
           <div className ="flex flex-row justify-center z-0 space-x-5">
-            <DiApple color="white" size={30} className="hover:scale-105 duration-300 cursor-pointer"/>
-            <DiAndroid color="green" size={30} className="hover:scale-105 duration-300 cursor-pointer"/>
+            <img src={Apple} className ="cursor-pointer" />
+            <img src={Android} className ="w-[150px] cursor-pointer"/>
+            
           </div>     
         </div>
       </div>
