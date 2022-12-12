@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Minima/static/css/main.cd853c24.css",
-    "main.js": "/Minima/static/js/main.169fcdb5.js",
+    "main.css": "/Minima/static/css/main.d2a845c0.css",
+    "main.js": "/Minima/static/js/main.08acb2fb.js",
     "static/media/minima-two-phone.png": "/Minima/static/media/minima-two-phone.d82805f588f03c70797b.png",
     "static/media/color-sharp.png": "/Minima/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Minima/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/iphone x w circle.png": "/Minima/static/media/iphone x w circle.e1f6aebe414895dcf721.png",
     "static/media/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg": "/Minima/static/media/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.8c4986ee4828b47d16f5cd694ef065f2.svg",
     "index.html": "/Minima/index.html",
-    "main.cd853c24.css.map": "/Minima/static/css/main.cd853c24.css.map",
-    "main.169fcdb5.js.map": "/Minima/static/js/main.169fcdb5.js.map"
+    "main.d2a845c0.css.map": "/Minima/static/css/main.d2a845c0.css.map",
+    "main.08acb2fb.js.map": "/Minima/static/js/main.08acb2fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd853c24.css",
-    "static/js/main.169fcdb5.js"
+    "static/css/main.d2a845c0.css",
+    "static/js/main.08acb2fb.js"
   ]
 }
