@@ -74,7 +74,7 @@ export const About = () => {
           </div>
          
          {/*for showing pop up*/}
-          <div onClick={handleOnClose} className={showPopUpOne ? " fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center text-white mt-[-100px]" : "hidden"}>
+          <div onClick={handleOnClose} className={showPopUpOne ? " fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center text-white mt-[-100px] " : "hidden"}>
             <div className="bg-gradient-to-r from-[#3f1b3a] to-[#28144c] h-[125px] w-[300px] rounded text-center" >
               <h1 className = "text-center p-2 text-xl font-bold">Download App</h1>
               <p classname = "">Go to the App or Play store to get the latest version of Minima.</p>
@@ -92,8 +92,8 @@ export const About = () => {
               <p classname = "">Go to the App or Play store to get the latest version of Minima.</p>
             </div>
           </div>
-          <div onClick={handleOnCloseFour} className={showPopUpFour ? " fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center text-white mt-[-100px]" : "hidden"}>
-          <div className="bg-gradient-to-r from-[#3f1b3a] to-[#28144c] h-[125px] w-[300px] rounded text-center" >
+          <div onClick={handleOnCloseFour} className={showPopUpFour ? " fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center text-white mt-[-100px] " : "hidden"}>
+          <div className="bg-gradient-to-r from-[#3f1b3a] to-[#28144c] h-[125px] w-[300px] rounded text-center " >
               <h1 className = "text-center p-2 text-xl font-bold">Leverage</h1>
               <p classname = "">Go to the App or Play store to get the latest version of Minima.</p>
             </div>

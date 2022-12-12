@@ -15,7 +15,7 @@ export const Banner = () => {
 
         <div className="flex flex-col justify-center md:mt-[20%] ">
           {/*set text color and make bold*/}
-          <h1 className="text-white font-bold sm:text-3xl text-5xl text-center z-0">Download our app, Initiate a contract, Get on track!</h1>
+          <h1 className="text-white font-bold sm:text-3xl text-2xl text-center z-0">Download <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Minima</span>, Initiate a contract, Get on track!</h1>
           {/*if the screen is above medium(md) make the text 4xl// if the screen size is above small(sm) make the text 3xl// and on phones make the text 2xl*/}
           {/*define padding of 2rems (py-2)*/}
           {/*<p className="text-white text-xs py-3 z-0 text-center ">            
