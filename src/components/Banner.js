@@ -18,13 +18,13 @@ export const Banner = () => {
           <h1 className="text-white font-bold sm:text-3xl text-5xl text-center z-0">Download our app, Initiate a contract, Get on track!</h1>
           {/*if the screen is above medium(md) make the text 4xl// if the screen size is above small(sm) make the text 3xl// and on phones make the text 2xl*/}
           {/*define padding of 2rems (py-2)*/}
-          <p className="text-white text-xs py-3 z-0 text-center ">            
+          {/*<p className="text-white text-xs py-3 z-0 text-center ">            
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
           Ullam, id nisi, doloribus cum iusto ratione,
           unde consequatur alias non eligendi dolorum ad voluptas voluptate. 
           Possimus esse voluptates eius quae eligendi.
-          </p>
-          <div className ="flex flex-row justify-center z-0 space-x-5">
+          </p>*/}
+          <div className ="flex flex-row justify-center z-0 space-x-5 pt-4">
             <img src={Apple} className ="cursor-pointer" />
             <img src={Android} className ="w-[150px] cursor-pointer"/>
             

@@ -9,7 +9,7 @@ export const Product = () => {
           <img src={background} className = " w-full h-screen object-cover absolute" alt="back Img"/>
             <div className="z-0 w-full px-4 ">
               <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
-                <img className="w-[350px] mx-auto z-0 mt-[30px]" src={phone} alt="/"/>
+                <img className="w-[350px] mx-auto z-0 mt-[30px] " src={phone} alt="/"/>
 
                   <div className="flex flex-col justify-center md:mt-[20%] ">
                     {/*set text color and make bold*/}
