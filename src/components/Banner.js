@@ -11,7 +11,7 @@ export const Banner = () => {
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img className="w-[350px] mx-auto z-0 mt-[30px]" src={phone} alt="/"/>
 
-        <div className="flex flex-col justify-center md:mt-[20%] pr-[10%]">
+        <div className="flex flex-col justify-center md:mt-[20%] ">
           {/*set text color and make bold*/}
           <h1 className="text-white font-bold sm:text-3xl text-5xl text-center z-0">Download our app, Initiate a contract, Get on track!</h1>
           {/*if the screen is above medium(md) make the text 4xl// if the screen size is above small(sm) make the text 3xl// and on phones make the text 2xl*/}

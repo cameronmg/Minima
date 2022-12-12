@@ -23,7 +23,7 @@ export const About = () => {
     <section className="bg-black h-[700px] w-full bg-cover bg-center static mt-[-5]" >  
       <div className="z-0 w-full px-4 ">
         <div className="max-w-[1240px] ">
-
+          
           {/*implementing flex for desktop*/}
           <div className = "flex flex-row space-x-[30%]">
             <div className = "hidden lg:flex flex-col space-y-[5%] w-[20%] pt-[10%] pb-[15%] ml-[15%]" >
