@@ -18,7 +18,7 @@ export const Banner = () => {
           <h1 className="text-white font-bold sm:text-3xl text-2xl text-center z-0">Download <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Minima</span>, Initiate a contract, Get on track!</h1>
        
           <div className ="flex flex-row justify-center z-0 space-x-5 pt-4">
-            <img src={Apple} className ="cursor-pointer" />
+            <img src={Apple} className ="w-[120px] cursor-pointer" />
             <img src={Android} className ="w-[150px] cursor-pointer"/>
             
           </div>     
