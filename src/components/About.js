@@ -53,7 +53,7 @@ export const About = () => {
                 <p className = "text-white text-center pb-5 text-sm">Go to the App or Play store to get the latest version of Minima.</p>
 
                 <div class="w-full px-2">
-                <div class="mx-auto bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded-lg h-20 w-[40%]">
+                <div class="mx-auto bg-gradient-to-r from-[#3f1b3a] to-[#28144c] rounded h-20 w-[40%]">
                   <span className = " text-white font-bold text-4xl flex justify-center items-center pt-3">4</span> 
                 </div>
               </div>

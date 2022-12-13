@@ -1,8 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/*.banner{
-    background-image: url('./assets/img/color-sharp.png');
-    background-color: black;
-}*/

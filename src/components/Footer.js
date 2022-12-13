@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
-    <div className='bg-black h-[90px] w-full text-gray-300'>
+    <div className='bg-black h-[100px] w-full text-gray-300'>
         <div className="flex flex-col justify-center place-content-center pt-2">
             
            
             <div className='flex justify-center p-1'>© 2022 Minima LLC</div>
-            <div className="flex flex-row justify-center space-x-4">
+            <div className="flex flex-row justify-center space-x-4 pt-1">
                 
                     <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                         <FaFacebookSquare className= 'cursor-pointer' size={30} />

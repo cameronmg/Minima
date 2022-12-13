@@ -16,14 +16,7 @@ export const Banner = () => {
         <div className="flex flex-col justify-center md:mt-[20%] ">
           {/*set text color and make bold*/}
           <h1 className="text-white font-bold sm:text-3xl text-2xl text-center z-0">Download <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Minima</span>, Initiate a contract, Get on track!</h1>
-          {/*if the screen is above medium(md) make the text 4xl// if the screen size is above small(sm) make the text 3xl// and on phones make the text 2xl*/}
-          {/*define padding of 2rems (py-2)*/}
-          {/*<p className="text-white text-xs py-3 z-0 text-center ">            
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Ullam, id nisi, doloribus cum iusto ratione,
-          unde consequatur alias non eligendi dolorum ad voluptas voluptate. 
-          Possimus esse voluptates eius quae eligendi.
-          </p>*/}
+       
           <div className ="flex flex-row justify-center z-0 space-x-5 pt-4">
             <img src={Apple} className ="cursor-pointer" />
             <img src={Android} className ="w-[150px] cursor-pointer"/>
