@@ -16,9 +16,9 @@ export const Navbar = () => {
   return (
     <div className = "z-50 fixed w-full">
         <ul className = " hidden md:flex flex-row mt-5 text-center space-x-5 justify-end mr-10">
-            <a className = " px-1 text-white hover:scale-105 duration-300 cursor-pointer">Home</a>
-            <a className = " px-1  text-white hover:scale-105 duration-300  cursor-pointer">About Us</a>
-            <a className = " px-1  text-white hover:scale-105 duration-300  cursor-pointer">Product</a>
+            <Link to="banner" smooth={true} className = " px-1 text-white hover:scale-105 duration-300 cursor-pointer">Home</Link>
+            <Link to="about" smooth={true} className = " px-1  text-white hover:scale-105 duration-300  cursor-pointer">Product</Link>
+            <Link to="mission" smooth={true} className = " px-1  text-white hover:scale-105 duration-300  cursor-pointer">About Us</Link>
         </ul> 
       {/*reactive navbar icon for mobile*/}
       <div onClick={handleNav} className ='block md:hidden absolute right-5 z-50 mt-[10%]'>
@@ -28,9 +28,9 @@ export const Navbar = () => {
 
       <div className = {nav ? ' bg-black z-40 md:hidden md:absolute fixed top-0 w-[100%] h-[40%] ease-in-out duration-300 right-[0%] pt-[10%] ' : 'md:hidden fixed top-0 h-[50%] w-[100%] top-[-200%] ease-in-out duration-300 right-[0%]'}>
             <ul className ='grid grid-col uppercase p-4'>
-                <Link to="/" smooth={true} onClick ={handleNav} className = 'font-bold p-4 text-white hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer' > Home</Link>
-                <Link to="/About" smooth={true} onClick ={handleNav} className = 'font-bold p-4 text-white hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>About Us</Link>
-                <Link to="/Product" smooth={true} onClick ={handleNav} className = 'font-bold p-4 text-white hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>Product</Link>
+                <Link to="banner" smooth={true} onClick ={handleNav} className = 'font-bold p-4 text-white hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer' > Home</Link>
+                <Link to="about" smooth={true} onClick ={handleNav} className = 'font-bold p-4 text-white hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>Product</Link>
+                <Link to="mission" smooth={true} onClick ={handleNav} className = 'font-bold p-4 text-white hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>About Us</Link>
             </ul>
         </div>
 

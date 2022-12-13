@@ -1,13 +1,9 @@
 import React, {useState} from 'react'
 import phone from '../assets/img/iphone x w circle.png'
 
-export const About = () => {
+const About = () => {
   //function for making pop visible and not visible
-  /*function popUp({visible})
-  {
-    if(!visible) return null;
 
-  }*/
   //for showing pop up using use state hook
   const [showPopUpOne,setPopUp] = useState(false);
   const [showPopUpTwo,setPopUpTwo] = useState(false);
@@ -20,7 +16,7 @@ export const About = () => {
   const handleOnCloseFour = () => setPopUpFour(false);
 
   return (
-    <section className="bg-black h-screen w-full bg-cover bg-center static mt-[-5]" >  
+    <section id='about' className="bg-black h-screen w-full bg-cover bg-center static mt-[-5]" >  
       <div className="z-0 w-full px-4 ">
         <div className="max-w-[1240px] ">
           

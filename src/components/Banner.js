@@ -5,9 +5,9 @@ import {DiAndroid, DiApple} from 'react-icons/di'
 import Apple from '../assets/img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'
 import Android from '../assets/img/google-play-badge.png'
 
-export const Banner = () => {
+const Banner = () => {
   return (
-    <section className="bg-black h-screen w-full bg-cover bg-center static " >
+    <section id='banner' className="bg-black h-screen w-full bg-cover bg-center static " >
         <img src={background} className = " w-full h-screen object-cover absolute" alt="back Img"/>
         <div className="z-0 w-full px-4 ">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">

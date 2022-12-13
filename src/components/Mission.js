@@ -1,9 +1,9 @@
 import React from 'react'
 import background from '../assets/img/color-sharp2.png'
 
-export const Mission = () => {
+const Mission = () => {
   return (
-    <div className = "bg-black h-screen w-full">
+    <section id='mission' className = "bg-black h-screen w-full">
         <div className = "text-black flex justify-center justify-content-center">
           <img src={background} className = " w-full h-screen object-cover absolute" alt="back Img"/>
             <div className = "text-white flex justify-center ">
@@ -18,7 +18,7 @@ export const Mission = () => {
             </div>
         </div>
 
-    </div>
+    </section>
   )
 }
 
