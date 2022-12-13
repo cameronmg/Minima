@@ -26,7 +26,7 @@ export const Navbar = () => {
             {nav ? <AiOutlineClose color="white" className = 'cursor-pointer' size ={30}/> : <AiOutlineMenu color="white" className = 'cursor-pointer' size={30}/>}
       </div>
 
-      <div className = {nav ? ' bg-black z-40 md:hidden md:absolute fixed top-0 w-[100%] h-[40%] ease-in-out duration-300 right-[0%] pt-[10%] ' : 'md:hidden fixed top-0 h-[50%] w-[100%] top-[-200%] ease-in-out duration-300 right-[0%]'}>
+      <div className = {nav ? ' bg-gradient-to-r from-[#3f1b3a] to-[#28144c] z-40 md:hidden md:absolute fixed top-0 w-[100%] h-[40%] ease-in-out duration-300 right-[0%] pt-[10%] ' : 'md:hidden fixed top-0 h-[50%] w-[100%] top-[-200%] ease-in-out duration-300 right-[0%]'}>
             <ul className ='grid grid-col uppercase p-4'>
                 <Link to="banner" smooth={true} onClick ={handleNav} className = 'font-bold p-4 text-white hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer' > Home</Link>
                 <Link to="about" smooth={true} onClick ={handleNav} className = 'font-bold p-4 text-white hover:scale-105 duration-300 hover:text-[#ffffff] duration-600 cursor-pointer'>Product</Link>

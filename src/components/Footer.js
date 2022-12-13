@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
-    <div className='bg-black h-[100px] w-full text-gray-300'>
+    <div className='bg-gradient-to-r from-[#3f1b3a] to-[#28144c] h-[100px] w-full text-gray-300'>
         <div className="flex flex-col justify-center place-content-center pt-2">
             
            
