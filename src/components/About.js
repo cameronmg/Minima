@@ -18,7 +18,7 @@ const About = () => {
   return (
     <section id='about' className="bg-black h-screen w-full bg-cover bg-center static mt-[-5]" >  
       <div className="z-0 w-full px-4 ">
-        <div className="max-w-[1240px] ">
+        <div className="max-w-[1240px] mx-auto ">
           
           {/*implementing flex for desktop*/}
           <div className = "flex flex-row space-x-[30%]">
